@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.4.0_bf937c502bbd15c02102a7d2e1aa199d8ea519ac.jar" />
+    </item>
+    <item
+        jar="/Users/pyephyohan/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/library-1.0.19_7ba05e7854d697ae4cf5b79daa093bc96169f34b.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/libs/android-async-http-1.4.4.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.4_672abba4e942571312675d59369343c8c7532d89.jar" />
+    </item>
+    <item
+        jar="/Users/pyephyohan/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1_91f4dc96cc2fe912b827780b2f06eaf48259ba2f.jar" />
+    </item>
+    <item
+        jar="/Users/pyephyohan/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_09dc424ad666b3c90020434cc48021c7824b0d89.jar" />
+    </item>
+    <item
+        jar="/MyData/adt-bundle-mac-x86-native/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_dab1b76003c8ad13a74307070f4b02afbe9fa103.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.0.0_9d7bdd313754b787a0283a4774ad667111cbea35.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-9.4.0_d3a1b08c3d20e5494c80b25253c28abef200c837.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-9.4.0_854b9aa7a4ed2d57fbffc966eca4730ea4eba4ec.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-9.4.0_d11e5dfb7f97ef19b3f8290d1afa4ea38fbec0db.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.4.0_0927be01f9f9d4d02e66aa74d6eaffead59dae27.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.android.support-palette-v7-24.0.0_78a7a3ae725d0f366e5827f2f32900c76efa3c4a.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.4.0_c79126b02fe3c48aa3886429c94998a1968b8f73.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.afollestad.material-dialogs/core/0.8.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="5640136cf422060a7077e2c02d9a231d7c76f959">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.afollestad.material-dialogs-core-0.8.6.1_2914eff4128a9da908f689d03fad9053431cd007.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.afollestad.material-dialogs/commons/0.8.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="b70302fafbb8bc4f74df2f648bee8c64ed065849">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.afollestad.material-dialogs-commons-0.8.6.1_102df7eab95ffa6020c3547023dea1c711214e32.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_f11a04bde6a925662a27c3c1647a8b16ae3a1497.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-9.4.0_aa839acc0face88c7badc0a3f5427e61996b8ed9.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-9.4.0_c151aa9689f9ff327d3f3bc9a9746ec02fa1007f.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.0.0_13a3ae068a63eec38d9866c564252218e6b25d11.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-9.4.0_0c608b72f9c5e7e6991f15ba1afd1ea8423073d9.jar" />
+    </item>
+    <item
+        jar="/Users/pyephyohan/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/gson-2.2.4_0ebbf1e13634bfd8916ace1a027dfcb8ae57602e.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.4.0_542466f434facad929ca54efb830ab6281f786f7.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.0.0_328175163d8e3fa78070ee6f87c2a7173f37f3a3.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-24.0.0_4aaa324b2f8cc1c9465fb9c88be9fed74585741c.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.pnikosis/materialish-progress/1.5/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="75c54c470e19b251749e6e6c2cf3d73c0b50aa64">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.pnikosis-materialish-progress-1.5_c480073e64ac414cfe7ec8dda8f246e04dbbcf0a.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.4.0_d4e1e119d78e741210d6f84fdefa533ad7137052.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/libs/PayPalAndroidSDK-2.9.10.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="ec5f3d25ec21b18a0127332e63d90adbb582fb34">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/PayPalAndroidSDK-2.9.10_d38a99d39ffe1f4038a9629e17e8c0a0abac0988.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/de.hdodenhof-circleimageview-1.3.0_19bf80a1e7a720a130a0ad108284a4c784ce18e8.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.4.0_e21349362076edacf1a7955e76bba093b0783dba.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.0.0_8f8e0eb92e512596cfdd3eb0afbbc2ebd65fc3c4.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.4.0_c3aff98c880e32b7df9404573403a268017cae69.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.0.0_2b6c18e6706a78d2804453fdeef09ec68f6f9d66.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/me.zhanghai.android.materialprogressbar/library/1.1.6/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="ab3193b438e37f7b0a634cc2dfebbf92892ea90c">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/me.zhanghai.android.materialprogressbar-library-1.1.6_56c62ef41250c69e0e61e592d5ecaf31e5393b97.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-iid-9.4.0_af5028a605946a35315d776b07396eb1ef7a5a9a.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.4.0_9362e6daac656808e8b66150a1a0d3138b693f78.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.github.rey5137/material/1.2.2/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="dde1ea8573633db3da4e8c42d541bfa7d03d6720">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.github.rey5137-material-1.2.2_9a0ecba71aad4d73dcf3fc47797088172606c588.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-9.4.0_9b864467af3028b6d10d9b8c4e04a2343bb9e711.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.stripe/stripe-android/2.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="fd2d3bfea24a25023d1e3b04fb3218120cc067f4">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.stripe-stripe-android-2.0.2_6d4ca932cd370880df91865dd97e625a51db44b0.jar" />
+    </item>
+    <item
+        jar="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/MyData/AndroidStudioProjects/Mokets/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_2d03a1882f042837c6ec731d717178ec397cab70.jar" />
+    </item>
+
+</items>

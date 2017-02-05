@@ -768,6 +768,9 @@ public class DetailActivity extends AppCompatActivity {
 
     private void bindAttribute() {
 
+        bindDiscount();
+        additionalPrice = calcuatedPrice;
+
         LinearLayout attributeContainer = (LinearLayout) findViewById(R.id.attribute_container);
         MyActivity myAct = new MyActivity(this);
 
@@ -831,7 +834,7 @@ public class DetailActivity extends AppCompatActivity {
 
                                             selectedAttributeIds += attribute.getId() + "#";
                                             selectedAttributeName += attribute.getName() + ",";
-                                            additionalPrice = calcuatedPrice + Float.parseFloat(attribute.getAdditionalPrice());
+                                            additionalPrice =  additionalPrice + Float.parseFloat(attribute.getAdditionalPrice());
                                             txtPrice.setText(getString(R.string.price) +
                                                     additionalPrice + GlobalData.itemData.currency_symbol + "(" + GlobalData.itemData.currency_short_form + ")");
 
@@ -1212,7 +1215,60 @@ public class DetailActivity extends AppCompatActivity {
 
                     if(basket.getQty() != Integer.parseInt(editTextQty.getText().toString())) {
 
-                        db.updateBasketByIds(new BasketData(
+
+
+                        if(additionalPrice==0.0){
+                            db.updateBasketByIds(new BasketData(
+                                    GlobalData.itemData.id,
+                                    GlobalData.itemData.shop_id,
+                                    pref.getInt("_login_user_id", 0),
+                                    GlobalData.itemData.name,
+                                    GlobalData.itemData.description,
+                                    String.valueOf(calcuatedPrice),
+                                    GlobalData.itemData.discount_percent,
+                                    Integer.parseInt(editTextQty.getText().toString()),
+                                    GlobalData.itemData.images.get(0).path,
+                                    GlobalData.itemData.currency_symbol,
+                                    GlobalData.itemData.currency_short_form,
+                                    Utils.removeLastChar(selectedAttributeName),
+                                    Utils.removeLastChar(selectedAttributeIds)
+                            ), GlobalData.itemData.id, GlobalData.itemData.shop_id);
+                            Utils.psLog("Update Basket");
+                        }else {
+                            db.updateBasketByIds(new BasketData(
+                                    GlobalData.itemData.id,
+                                    GlobalData.itemData.shop_id,
+                                    pref.getInt("_login_user_id", 0),
+                                    GlobalData.itemData.name,
+                                    GlobalData.itemData.description,
+                                    String.valueOf(additionalPrice),
+                                    GlobalData.itemData.discount_percent,
+                                    Integer.parseInt(editTextQty.getText().toString()),
+                                    GlobalData.itemData.images.get(0).path,
+                                    GlobalData.itemData.currency_symbol,
+                                    GlobalData.itemData.currency_short_form,
+                                    Utils.removeLastChar(selectedAttributeName),
+                                    Utils.removeLastChar(selectedAttributeIds)
+                            ), GlobalData.itemData.id, GlobalData.itemData.shop_id);
+                            Utils.psLog("Update Basket");
+                            additionalPrice = 0.0;
+                        }
+
+
+
+
+                    } else {
+
+                        showRequiredDifferentQty();
+
+                    }
+
+
+
+                } else {
+                    //New Item Insert Into Basket
+                    if(additionalPrice==0.0){
+                        db.addBasket(new BasketData(
                                 GlobalData.itemData.id,
                                 GlobalData.itemData.shop_id,
                                 pref.getInt("_login_user_id", 0),
@@ -1226,35 +1282,29 @@ public class DetailActivity extends AppCompatActivity {
                                 GlobalData.itemData.currency_short_form,
                                 Utils.removeLastChar(selectedAttributeName),
                                 Utils.removeLastChar(selectedAttributeIds)
-                        ), GlobalData.itemData.id, GlobalData.itemData.shop_id);
-                        Utils.psLog("Update Basket");
-
-                    } else {
-
-                        showRequiredDifferentQty();
-
+                        ));
+                        Utils.psLog("New Item Basket");
+                    }else {
+                        db.addBasket(new BasketData(
+                                GlobalData.itemData.id,
+                                GlobalData.itemData.shop_id,
+                                pref.getInt("_login_user_id", 0),
+                                GlobalData.itemData.name,
+                                GlobalData.itemData.description,
+                                String.valueOf(additionalPrice),
+                                GlobalData.itemData.discount_percent,
+                                Integer.parseInt(editTextQty.getText().toString()),
+                                GlobalData.itemData.images.get(0).path,
+                                GlobalData.itemData.currency_symbol,
+                                GlobalData.itemData.currency_short_form,
+                                Utils.removeLastChar(selectedAttributeName),
+                                Utils.removeLastChar(selectedAttributeIds)
+                        ));
+                        Utils.psLog("New Item Basket");
+                        additionalPrice = 0.0;
                     }
 
 
-
-                } else {
-                    //New Item Insert Into Basket
-                    db.addBasket(new BasketData(
-                            GlobalData.itemData.id,
-                            GlobalData.itemData.shop_id,
-                            pref.getInt("_login_user_id", 0),
-                            GlobalData.itemData.name,
-                            GlobalData.itemData.description,
-                            String.valueOf(calcuatedPrice),
-                            GlobalData.itemData.discount_percent,
-                            Integer.parseInt(editTextQty.getText().toString()),
-                            GlobalData.itemData.images.get(0).path,
-                            GlobalData.itemData.currency_symbol,
-                            GlobalData.itemData.currency_short_form,
-                            Utils.removeLastChar(selectedAttributeName),
-                            Utils.removeLastChar(selectedAttributeIds)
-                    ));
-                    Utils.psLog("New Item Basket");
                 }
                 menuItem.setVisible(true);
                 updateCartBadgeCount();
@@ -1277,6 +1327,8 @@ public class DetailActivity extends AppCompatActivity {
             }
 
         }
+
+
 
    }
 

@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="da8b7c651ac605f44458831ef342176d4c42c7f3">
+        sha1="41f527dce408a8febc3d07bd74d3194cb655cbed">
         <dex dex="C:\android\Mokets\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e5a23c9c3cbdb585ef333ce6723ff49aed709b78\classes.dex" />
     </item>
     <item
@@ -178,7 +178,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="24db637bf9056f872636e55088eb0369eed08828">
+        sha1="f0f388e2ee2eab0afd8fef62e31386158acb62ee">
         <dex dex="C:\android\Mokets\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_fddfbb9cf7ff5c3f6da931c763821dd1ca1b3f1f\classes.dex" />
     </item>
     <item

@@ -182,7 +182,7 @@
     <string name="transaction_detail">Transaction Detail</string>
     <string name="transaction_phone">Phone : </string>
     <string name="transaction_email">Email : </string>
-    <string name="transaction_billing_address">Billing Address : </string>
+    <string name="transaction_billing_address">County : </string>
     <string name="transaction_deliver_address">Delivery Address : </string>
     <string name="transaction_item_name">Item Name : </string>
     <string name="transaction_item_price">Item Price : </string>
